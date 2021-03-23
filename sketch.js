@@ -17,12 +17,11 @@ function setup(){
     hammer = new Hammer(10,100)
     rubber = new Rubber(220, 400, 70);
     stone = new Stone(550, 400, 220, 100);
-    iron = new Iron(1000, 480, 300, 200);
+    iron = new Iron(950, 480, 300, 200);
 }
 
 function draw(){
     background("lightBlue");
-    text(mouseX + "," + mouseY , mouseX,mouseY)
 
     Engine.update(engine);
 
